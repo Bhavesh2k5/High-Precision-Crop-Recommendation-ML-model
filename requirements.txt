@@ -1,12 +1,26 @@
-ipython
-deap
-imbalanced-learn
-lime
-matplotlib
-numpy
-pandas
-seaborn
-shap
-scikit-fuzzy
-scikit-learn
-xgboost
+# Core data science
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+imbalanced-learn>=0.10.0
+
+# Fuzzy logic
+scikit-fuzzy>=0.4.2
+
+# Genetic algorithm
+deap>=1.3.3
+
+# Explainable AI
+shap>=0.41.0
+lime>=0.2.0.1
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Notebook / display
+ipython>=8.0.0
+jupyter>=1.0.0

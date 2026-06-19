@@ -3,8 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
 # Virtual environments
 venv/
@@ -12,9 +12,11 @@ env/
 ENV/
 env.bak/
 venv.bak/
+.venv/
 
 # Environment variables
 .env
+.env.*
 
 # OS generated files
 .DS_Store
@@ -25,5 +27,14 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Exclude Research Paper per request
+# Research paper (excluded by request)
 *.pdf
+
+# Old notebook filenames (renamed — keep out of git)
+cleaningcropdataset.ipynb
+projectcrops.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
